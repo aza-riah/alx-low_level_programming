@@ -2,15 +2,15 @@
 
 int main(void)
 {
-char c_char;
-int c_int;
-long int c_long;
-long long c_long_long;
-float c_float;
+char size_char;
+int size_int;
+long int size_long;
+long long size_long_long;
+float size_float;
 
-printf("size of char: %lu byte(s)\n", sizeof(c_char));
-printf("size of int: %lu byte(s)\n", sizeof(c_int));
-printf("size of long int: %lu byte(s)\n", sizeof(c_long));
-printf("size of long long int: %lu byte(s)\n", sizeof(c_long_long));
-printf("size of float: %lu byte(s)\n", sizeof(c_float));
+printf("Size of a char: %lu byte(s)\n", sizeof(size_char));
+printf("Size of an int: %lu byte(s)\n", sizeof(size_int));
+printf("Size of a long int: %lu byte(s)\n", sizeof(size_long));
+printf("Size of a long long int: %lu byte(s)\n", sizeof(size_long_long));
+printf("Size of a float: %lu byte(s)\n", sizeof(size_float));
 }
