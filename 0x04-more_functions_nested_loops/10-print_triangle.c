@@ -1,33 +1,26 @@
-#include "main.h" 
-  
- /** 
-  * print_triangle - prints triangle 
-  * 
-  * @size: size of triangle 
-  */ 
- void print_triangle(int size) 
- { 
-         int i; 
-         int j; 
-         int k; 
-  
-         if (size <= 0) 
-         { 
-                 _putchar('\n'); 
-         } else 
-         { 
-  
-                 for (i = 1; i <= size; i++) 
-                 { 
-                         for (j = size - i ; j > 0; j--) 
-                         { 
-                                 _putchar(' '); 
-                         } 
-                         for (k = 0; k < i; k++) 
-                         { 
-                                 _putchar('#'); 
-                         } 
-                         _putchar('\n'); 
-                 } 
-         } 
- }
+#include "main.h"
+/**
+ * print_square - prints square
+ *
+ * @size: integer to set square size
+ */
+void print_square(int size)
+{
+	int i;
+	int j;
+
+	if (size <= 0)
+	{
+		_putchar('\n');
+	} else
+	{
+		for (i = 0; i < size; i++)
+		{
+			for (j = 0; j < size; j++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+		}
+	}
+}
